@@ -1,26 +1,42 @@
-# 🧪 QA Automation - Cypress
+# 🧪 QA Automation - Real World Project
 
 ## 📌 Sobre
 
-Projeto de automação de testes E2E focado em fluxos reais de usuário.
+Projeto completo de automação de testes E2E utilizando Cypress em uma aplicação real, simulando cenários de produção.
 
 ## 🚀 Tecnologias
 
 * Cypress
 * JavaScript
+* Node.js
+* Docker
 * Github Actions
 
-## ✅ Cenários
+## ⚙️ Como executar
 
-* Login
-* Transferência
-* Histórico
+### 🔹 Rodar com Docker
 
-## ⚙️ Como rodar
+```bash
+docker-compose up
+```
 
-npm install
-npx cypress open
+### 🔹 Rodar testes
+
+```bash
+npx cypress run
+```
+
+## ✅ Cenários testados
+
+* Login (sucesso e falha)
+* Transferência de dinheiro
+* Validação de saldo insuficiente
+* Histórico de transações
 
 ## 🔄 CI/CD
 
-Execução automática via Github Actions
+Pipeline configurado com Github Actions executando testes automaticamente a cada push.
+
+## 🎯 Objetivo
+
+Demonstrar habilidades em automação de testes, organização de código, e integração contínua.
